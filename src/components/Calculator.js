@@ -1,10 +1,11 @@
 import style from '../css/Calculator.module.css';
+import Display from './Display';
 
 function Calculator() {
 
     return (
         <div className={style.calculator}>
-            <h1>Calculator</h1>
+            <Display />
         </div>
     )
 
