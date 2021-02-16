@@ -1,7 +1,9 @@
+import style from '../css/ButtonsContainer.module.css';
+
 function ButtonsContainer() {
 
     return (
-        <div className={buttons}>
+        <div className={style.buttons}>
             <p>The buttons</p>
         </div>
     )
