@@ -1,3 +1,4 @@
+import Calculator from '../components/Calculator';
 import style from '../css/Home.module.css';
 
 function Home() {
@@ -5,7 +6,7 @@ function Home() {
     return (
         <div className={style.home}>
             <div className={style.wrapper}>
-                <h1>The calculater will be here...</h1>
+                <Calculator />
             </div>
         </div>
     )
